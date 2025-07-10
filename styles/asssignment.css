@@ -23,6 +23,9 @@
     color: #ffffff;
     padding: 12px 36px;
 }
+.btn-primary:hover{
+    background-color: black;
+}
 
 .blue{
   color: #009bd6;
@@ -64,6 +67,8 @@ nav{
 }
 .banner-btn{
     margin-top: 80px;
+    width: 174px;
+    height: 48px;
 }
 
 .cont1{
@@ -73,3 +78,33 @@ nav{
 margin: 0;
 }
 
+/* see-it section */
+.see-it{
+    display: flex;
+    justify-content: space-between;
+    margin: 110px 150px 0;
+}
+.section-title{
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.section-description{
+    font-size: 24;
+    font-weight: normal;
+    color: rgba(37, 36, 50, 0.5);
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+
+.see-it-btn{
+   width: 229px;
+   height: 48px; 
+}
+
+.see-it-img{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+}
