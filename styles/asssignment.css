@@ -78,11 +78,16 @@ nav{
 margin: 0;
 }
 
+/* main */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /* see-it section */
 .see-it{
     display: flex;
     justify-content: space-between;
-    margin: 110px 150px 0;
+    padding-top: 115px;
 }
 .section-title{
     font-size: 42px;
@@ -107,4 +112,38 @@ margin: 0;
     width: 403px;
     height: 328px;
     border-radius: 48px;
+}
+
+/* User section */
+
+.user{
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 25px;
+    padding: 50px 80px 50px 80px;
+    text-align: center;
+    margin-top: 115px;
+}
+
+.user-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.user-title{
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.title{
+    font-size: 80px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+
+.subtitle{
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 0;
 }
