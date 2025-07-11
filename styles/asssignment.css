@@ -31,6 +31,10 @@
   color: #009bd6;
 }
 
+body{
+    background-color: rgba(132, 130, 185, 0.1);
+}
+
 /* Nav style */
 
 .header{
@@ -147,3 +151,52 @@ main{
     font-weight: 300;
     margin-top: 0;
 }
+
+/* review section */
+.review-container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.review{
+    box-shadow: 5px 7px 10px;
+    width: 25%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+
+.review-main-title{
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.review-title{
+    margin-bottom: 0;
+}
+
+.review-description{
+    margin-top: 0;
+}
+
+.reviewer-img{
+    display: flex;
+    align-items: center;
+}
+
+.re-img{
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.re-img-data h4{
+    margin-bottom: 0;
+}
+
+.re-img-data p{
+    margin-top: 0;
+}
+
