@@ -32,7 +32,7 @@
 }
 
 body{
-    background-color: rgba(132, 130, 185, 0.1);
+    background-color: rgba(89, 87, 126, 0.1);
 }
 
 /* Nav style */
@@ -199,4 +199,43 @@ main{
 .re-img-data p{
     margin-top: 0;
 }
+
+/* Focus section */
+.focus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    padding: 150px 70px 150px 70px;
+    margin-top: 135px;
+}
+.focus-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.focus-title{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.focus-description{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.focus-btn{
+width: 195px;
+height: 48px;
+}
+
+.focus-img{
+    margin-top: 20px;
+    border-radius: 50px;
+}
+
 
