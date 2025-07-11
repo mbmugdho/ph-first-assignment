@@ -255,6 +255,7 @@ height: 48px;
 .contact-me{
    display: flex;
    justify-content: center;
+   gap: 50px;
 }
 
 
@@ -262,7 +263,7 @@ height: 48px;
     height: 70px;
     border-radius: 10px;
     background-color: #c7efff;
-    width: 100%;
+    width: 300px;
     display: block;
     padding: 10px 20px;
     margin-bottom: 20px;
@@ -271,7 +272,7 @@ height: 48px;
 .contact-form textarea{
     border-radius: 10px;
     background-color: #c7efff;
-    width: 100%;
+    width: 300px;
     display: block;
     padding: 10px 20px;
     margin-bottom: 20px;
@@ -280,12 +281,48 @@ height: 48px;
 
 .form-btn{
     border-radius: 10px;
-    width: 300px;
     display: block;
     padding: 10px 20px;
     margin-bottom: 20px;
     border: none;
 }
 
+/* Footer section */
 
+.footer{
+    background-color: #FFFFFF;
+    padding: 100px 450px;
+    margin-top: 20px;
+}
+
+
+.footer-title{
+    font-size: 80px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.footer-description{
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.footer-link{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-link a{
+    text-decoration: none;
+    font-size: 15px;
+    color: rgba(137, 135, 161, 1);
+}
+
+.footer-link a:hover{
+    background-color: aquamarine;
+}
 
