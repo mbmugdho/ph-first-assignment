@@ -238,4 +238,54 @@ height: 48px;
     border-radius: 50px;
 }
 
+/* Contact form section */
+
+.contact{
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    margin-top: 80px;
+    padding: 50px 150px 14px 150px;
+}
+.contact-title{
+    font-size: 75px;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.contact-me{
+   display: flex;
+   justify-content: center;
+}
+
+
+.contact-form input[type="text"], .contact-form input[type="email"]{
+    height: 70px;
+    border-radius: 10px;
+    background-color: #c7efff;
+    width: 100%;
+    display: block;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border: none;
+}
+.contact-form textarea{
+    border-radius: 10px;
+    background-color: #c7efff;
+    width: 100%;
+    display: block;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.form-btn{
+    border-radius: 10px;
+    width: 300px;
+    display: block;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border: none;
+}
+
+
 
